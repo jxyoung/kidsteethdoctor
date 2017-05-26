@@ -42,7 +42,8 @@ html {
 
 body {
   line-height: 1.5;
-  color: #eee;
+  color: #008CC9;
+  opacity: 70%;
   font-size: 14px;
   font-family: "Arial", sans-serif;
 }
@@ -127,6 +128,18 @@ form {
 
 small {
   font-family: "Arial", sans-serif;
+}
+
+.square {
+  height: auto;
+  background-color: #a9bede;
+  border: 5px solid #cddced;
+}
+
+.square:hover {
+  background-color: #98adcd;
+  transition: background-color 0.25s ease;
+
 }
 
 #main-content p {
@@ -395,7 +408,6 @@ small {
 }
 
 .section-page {
-  padding: 100px 0;
   position: relative;
   overflow: hidden;
 }
@@ -2844,7 +2856,7 @@ body:not(.device-touch) #scrollToTop {
 }
 
 .dentist-info {
-  margin-top: 20px;
+  margin-top: 6px;
 }
 
 .newsletter-text {
