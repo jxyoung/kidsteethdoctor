@@ -52,6 +52,10 @@ iframe {
   border: none !important;
 }
 
+.header-text {
+  font-size: 16px;
+}
+
 h1,
 h2,
 h3,
@@ -75,10 +79,12 @@ h1 {
 
 h2 {
   font-size: 30px;
+  color: #1496BB;
 }
 
 h3 {
   font-size: 24px;
+  color: #1496BB;
 }
 
 h4 {
@@ -175,12 +181,17 @@ small {
    overflow-y: auto; 
    height: 400px;
    margin-top: 30px;
-   padding-bottom: 40px;
+   padding: 0px 20px 40px 20px;
 }
 
 .comment {
   border-bottom: 1px solid #999;
   padding-bottom: 25px;
+}
+
+.cat-pic {
+  height: 200px;
+  width: auto;
 }
 
 #main-content p {
@@ -1948,6 +1959,11 @@ form textarea.error {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   padding: 0.85em 2em;
   font-size: 14px;
+  background: #459ec8;
+}
+
+.button:hover {
+  background-color: #67bfea;
 }
 
 .button.large {
@@ -2944,8 +2960,8 @@ body:not(.device-touch) #scrollToTop {
 
 .staff-info {
   margin-top: 35px;
-  padding-right: 35px;
-  width: 75%;
+  padding: 20px 0px;
+  width: 90%;
 }
 
 .staff-list {
@@ -3042,7 +3058,7 @@ span.text-content {
 
 .imageContainer p { 
    position: absolute; 
-   top: 250px; 
+   top: 350px; 
    left: 0; 
    width: 100%; 
    background: rgba(50,50,50,0.65);
