@@ -142,6 +142,47 @@ small {
 
 }
 
+.tab {
+  background-color: #fff;
+}
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+.tab a:hover {
+  color: #fff;
+}
+
+.thumbnail {
+  border: 2px solid #ccc;
+}
+
+.testimonial-container
+{                
+   position: absolute; 
+   overflow: hidden; 
+   height: 400px;
+   border: 2px solid #999;
+   margin-bottom: 40px;
+   padding: 0px;
+}
+
+.comments
+{
+   position: relative;
+   overflow-x: hidden;
+   overflow-y: auto; 
+   height: 400px;
+   margin-top: 30px;
+   padding-bottom: 40px;
+}
+
+.comment {
+  border-bottom: 1px solid #999;
+  padding-bottom: 25px;
+}
+
 #main-content p {
   line-height: 1.7;
   font-size: 16px;
@@ -3009,6 +3050,5 @@ span.text-content {
 
 .footer-images { 
    height: 80px;
-   border-radius: 25%;
    padding: 5px;
 }
